@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -26,50 +25,44 @@ body {
   align-items: center;
   padding: 16px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 10px;
+  border-radius: 12px;
   width: 336px;
-}
-
-main img {
-  padding: 0 16px 0 16px;
-  width: 336px;
-  height: 152px;
 }
 
 .desing {
-  display: block;
+  margin: 16px 0 16px 0;
   width: 100%;
-  margin-top: 16px;
-  margin-bottom: 16px;
 }
 
 .desing small {
-  color: #883ae1;
-  background: #e6d6fc;
   font-size: 10px;
-  padding: 3px;
+  color: #883ae1;
+  background-color: #e6d6fc;
+  padding: 6px 16px 6px 16px;
   border-radius: 20px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
-.body h1 {
-  font-size: 18px;
-  margin-bottom: 6px;
-  color: #20293a;
-}
-
-.body p {
-  font-size: 14px;
+.body {
   margin-bottom: 20px;
-  color: #6c727f;
+}
+
+.tittle {
+  font-size: 18px;
+  color: #20293a;
+  margin-bottom: 6px;
+}
+
+.body .smallText {
+  font-size: 14px;
 }
 
 .smallText {
-  font-size: 12px;
-  width: 100%;
-  display: inline-block;
-  text-align: start;
   color: #6c727f;
-  margin-top: 20px;
+}
+
+.annie {
+  color: #6c727f;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 4px;
 }
