@@ -153,12 +153,3 @@ body {
     width: 90%;
   }
 }
-
-@media screen and (max-width: 1183px) {
-  .card_stars img {
-    width: 15%;
-  }
-  .card {
-    width: 80%;
-  }
-}
