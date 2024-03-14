@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/bg-image.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 1em 2em;
+  min-height: 100vh;
+}
+
+.body_container,
+text_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.body_text h1 {
+  font-size: 4rem;
+  text-wrap: balance;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.body_text h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  border-radius: 1.5em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 65%;
+  /* height: 500px; */
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/** Inputs styles **/
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding: 10px;
+  width: 300px;
+  text-align: start;
+}
+
+input {
+  padding: 25px 20px;
+  font-size: 1rem;
+  border-radius: 15px;
+  border: none;
+}
+
+label {
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+
+textarea {
+  border-radius: 20px;
+  padding: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+button {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  color: #4036a9;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: 1px solid #4036a9;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .form {
+    width: 90%;
+    margin-top: 60px;
+  }
+
+  .body_text h1 {
+    font-size: 3rem;
+  }
+
+  .body_text h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .form {
+    width: 100%;
+  }
+  .body_text h1 {
+    font-size: 2.5rem;
+  }
+  .body_text h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+
+  .body_text {
+    width: 80%;
+  }
+}
